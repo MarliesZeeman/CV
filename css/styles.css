@@ -1,0 +1,150 @@
+/*********************************TAG SELECTORS************************/
+
+body{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+font-size: 5.625rem;
+/*-- font-size 5.625 rem is gebaseerd op 90px. font-size in px = vaststaand, kan niet vergroot door + of - te klikken op de site
+dynamisch = % of 'em'. 100% is het zelfde als 16px, dus als je groter wilt, moet je 0,16 x het gewenste aantal pixels doen.
+'em' komt van de letter M. 1em= 16 pk. In ons geval: 5.625 em
+kies bij voorkeur voor 'rem'. Als je dan in je body ook een font-size in % of 'em'hebt voor de hele site, blijft je 'rem'dezelfde grootte*/
+margin: 100px auto 0 auto;
+font-family: 'Indie Flower', cursive;
+color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
+
+hr {
+border-color: #EAF6F6;
+border-width: 10px;
+  width: 5%;
+  border-style: dotted none none none;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/*********************************CLASS SELECTORS************************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+  background-color:#66BFBF;
+  padding: 50px 0 20px;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 30%;
+  margin: auto ;
+}
+
+.plaatje1 {
+  width: 50%;
+}
+
+.plaatje2 {
+  width: 25%;
+float: left;
+  /*float zorgt ervoor dat de tekst zich om het plaatje heen voegt */
+  margin-right: 30px;
+}
+
+.plaatje3 {
+  width: 25%;
+  float: right;
+  /*float zorgt ervoor dat de tekst zich om het plaatje heen voegt */
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+.footer-link {
+  color: #11999E;
+}
+.copyright {
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contactbericht {
+width: 20%;
+margin: 40px auto 60px;
+}
+
+.skill-row{
+  width: 50%;
+margin: 100px auto ;
+text-align: left;
+line-height: 2;
+}
+
+.button {
+  background-color: #11999E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 4px;
+  font-family: 'Merriweather', serif;
+  margin: 0 auto 50px
+}
+
+.button:hover {
+  background-color: #66BFBF; 
+  color: white;
+}
+/*********************************ID SELECTORS************************/
